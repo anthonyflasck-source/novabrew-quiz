@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f4ef;
+  --foreground: #251a11;
+  --nb-bg: #f7f4ef;
+  --nb-soft: #fdf8f2;
+  --nb-ink: #251a11;
+  --nb-muted: #6f5f52;
+  --nb-line: #e7ddd2;
+  --nb-accent: #7c5a3c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 260ms ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 220ms ease-out;
+}
