@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# NovaBrew Coffee Taste Profile Quiz
 
-## Getting Started
+A personality-based coffee matching quiz built for NovaBrew Coffee Co. The app helps subscribers discover their coffee personality and receive tailored coffee recommendations to improve long-term retention.
 
-First, run the development server:
+## Coffee Personalities
+- **Bold Explorer**: intense, confident flavor profiles and stronger roast expression.
+- **Smooth Operator**: balanced, consistent daily quality with low-friction reliability.
+- **Cozy Classic**: comfort-first choices built around routine and familiar flavor.
+- **Wild Card**: discovery-driven picks with unusual profiles and experimental edge.
 
+## Product Highlights
+- 6-question interactive quiz flow
+- Primary + Secondary personality result format
+- Coffee pairings mapped to each personality
+- Minimal light visual style with responsive design
+- Retake flow and result copy/share support
+
+## Built With
+- Next.js
+- TypeScript
+- Tailwind CSS
+
+## Local Run
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Business Context
+This prototype was built as a customer-personalization solution for NovaBrew's retention challenge. The strategy focus is moving from transactional campaigns to identity-based matching through taste profiling.
